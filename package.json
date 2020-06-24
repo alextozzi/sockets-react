@@ -15,9 +15,9 @@
     "socket.io": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "run-p server start",
     "server": "node server",
-    "dev": "run-p server start"
+    "web": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
